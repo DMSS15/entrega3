@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="Entrega2-ejbPU" transaction-type="JTA">
+    <jta-data-source>jdbc/sample</jta-data-source>
+    <class>JPA.Administrador</class>
+    <class>JPA.Administrativo</class>
+    <class>JPA.Baja</class>
+    <class>JPA.Cita</class>
+    <class>JPA.Ciudadano</class>
+    <class>JPA.Demanda</class>
+    <class>JPA.Expediente</class>
+    <class>JPA.JefeServicio</class>
+    <class>JPA.Recurso</class>
+    <class>JPA.Reunion</class>
+    <class>JPA.Tecnico</class>
+    <class>JPA.Usuario</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <validation-mode>NONE</validation-mode>
+    <properties>
+    </properties>
+  </persistence-unit>
+</persistence>
